@@ -1,0 +1,4 @@
+EDIT BAGIAN INI
+1. search.php , 404.php , header.php, single.php ganti dengan url domain anda
+2. Stupidpie/template/default.html, imgamazon.html, sidebar.html ganti dgn tag id anda
+3. WProbot/modul/amazon.php ganti amazon detail id anda

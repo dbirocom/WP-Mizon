@@ -1,0 +1,58 @@
+{% api %}{% image %}{% video %}
+<article class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+	<div class="post-format-single standard"></div>
+
+	<div class="entry-wrap">
+		<header class="entry-header">
+			<a href="#" class="post-date"></a>
+			<h1 class="entry-title">{{ term | ucwords }}</h1>
+		</header><!--end .entry-header -->
+		
+		<div class="entry-content">
+			<p>
+				{% for index, item in api %}
+				{% if index < 2 %}
+					{{item.title  | remove '...' | trim | strtolower | ucfirst }}, {{item.description | remove '...' | trim | strtolower | ucfirst }}.
+				{% endif %}
+				{% endfor %}
+			</p>
+			<p>
+				<img src="{{ images.2.mediaurl }}" alt="{{images.2.title}}">
+			</p>
+			<p>
+				{% for index, item in api %}
+				{% if index > 2 %}{% if index < 4 %}
+					{{item.title  | remove '...' | trim | strtolower | ucfirst }}, {{item.description | remove '...' | trim | strtolower | ucfirst }}.
+				{% endif %}{% endif %}
+				{% endfor %}
+			</p>
+			{% if videos.0.link != '' %}
+			<p>			
+				<iframe class="youtube-player" type="text/html" width="500" height="300" src="http://www.youtube.com/embed/{{ videos.0.link | get_video_id }}" frameborder="0">
+				</iframe>			
+			</p>
+			{% endif %}
+			<p>
+				{% for index, item in api %}
+				{% if index > 6 %}
+					{{item.title  | remove '...' | trim | strtolower | ucfirst }}, {{item.description | remove '...' | trim | strtolower | ucfirst }}.
+				{% endif %}
+				{% endfor %}
+			</p>
+			{% for index, item in images %}
+				{% if index < 4 %}
+				<p>
+				<img src="{{ item.mediaurl }}" alt="{{ item.title }}">
+				<br>
+				<caption>{{ item.title | ucfirst }}</caption>
+				</p>
+				{% endif %}
+			{% endfor %}
+	  	</div><!-- end .entry-content -->
+
+	</div><!--end .entry-wrap-->
+	
+		<footer class="entry-meta singlepost">
+			
+		</footer><!-- end .entry-meta -->
+</article>

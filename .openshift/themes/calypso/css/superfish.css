@@ -1,0 +1,37 @@
+/* The container wrapping .sf-menu */
+<a class="_hootified" a="" href="#"  #navwrap "="" onclick=" javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: "#navwrap"});  document.body.dispatchEvent(e); return false;">#navwrap { 
+    float:              left;
+    width:              100%;
+    background:         <a class="_hootified" a="" href="#"  #600 "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #600 "});  document.body.dispatchEvent(e); return false;"> #600 </a>;
+    font:               1.0em "Segoe UI", "Lucida Grande", Verdana, Arial, sans-serif;
+ 
+}
+.sf-menu {
+    float:              left;
+    width:              100%;
+}
+.sf-menu li {
+    background:         transparent;
+}
+.sf-menu a {
+    color:              <a class="_hootified" a="" href="#"  #eee "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #eee "});  document.body.dispatchEvent(e); return false;"> #eee </a>;
+    padding:            9px 15px;
+    text-decoration:    none;
+}
+.sf-menu ul li a {
+    color:              <a class="_hootified" a="" href="#"  #eee "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #eee "});  document.body.dispatchEvent(e); return false;"> #eee </a>;
+    padding:            9px 15px;
+    text-decoration:    none;
+    border:             1px solid <a class="_hootified" a="" href="#"  #777 "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #777 "});  document.body.dispatchEvent(e); return false;"> #777 </a>;
+}
+.sf-menu li li {
+    background:         <a class="_hootified" a="" href="#"  #444 "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #444 "});  document.body.dispatchEvent(e); return false;"> #444 </a>;
+}
+.sf-menu li li li {
+    background:         <a class="_hootified" a="" href="#"  #444 "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #444 "});  document.body.dispatchEvent(e); return false;"> #444 </a>;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    background:         <a class="_hootified" a="" href="#"  #900 "="" onclick="javascript:var e = document.createEvent("CustomEvent"); e.initCustomEvent("hootletEvent", true, true, {type: "hash", value: " #900 "});  document.body.dispatchEvent(e); return false;"> #900 </a>;
+    outline:            0;
+}

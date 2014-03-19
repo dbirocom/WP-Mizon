@@ -1,0 +1,13 @@
+{% image %}
+<p>
+<h2>{{ term | ucwords }} Bilder</h2>
+</p>
+
+{% for index, item in images %}
+{% if index < 4 %}
+<div style="text-align:center">
+<a href="http://www.amazon.com/s/?_encoding=UTF8&camp=1638&creative=19454&field-keywords={{ term }}&linkCode=ur2&site-redirect=de&tag=cahelek23-20&url=search-alias%3Daps"  target="_blank" rel="nofollow"><img src="{{ item.mediaurl | remove '._SL500_AA300_' }}" alt="{{ item.title }}" title="SEARCH AND BUY THIS PRODUCT AT AMAZON.COM"></a><br>
+<caption>{{ item.title }}</caption></br></br>
+</div>
+{% endif %}
+{% endfor %}

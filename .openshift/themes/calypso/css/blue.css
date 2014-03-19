@@ -1,0 +1,10 @@
+nav, #menu-icon {background: url(../img/header_blue.jpg) repeat;}
+.amazon-seacrh input[type="submit"]:hover,  {background: #2CA0CA; color: #fff}
+
+.amazon-seacrh input[type="submit"]:hover,  {background: #2CA0CA; color: #fff}
+.popular-item li a.detail:hover, .popular-item a.detail:hover, .product-list a.detail:hover, #slider .slide-desc a.cart:hover, .navigation a:hover {border: 1px solid #2CA0CA; color: #fff !important; background: #2CA0CA }
+.product-meta-excerpt h3 span, .product-share h3 span, .product-description h3 span, h2.archive span, h2.page span {border-bottom: 2px solid #2CA0CA;}
+
+div.modal-box div.inside.green {
+	background: url(../img/header_blue.jpg) repeat;
+}

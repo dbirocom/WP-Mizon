@@ -1,0 +1,9 @@
+[29-Dec-2013 08:35:06 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[29-Dec-2013 08:35:07 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[31-Dec-2013 05:30:41 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[18-Jan-2014 15:52:15 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[20-Jan-2014 10:52:00 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[23-Jan-2014 04:14:32 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[23-Jan-2014 04:25:48 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[25-Jan-2014 08:16:04 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2
+[31-Jan-2014 01:58:24 America/New_York] PHP Fatal error:  Call to undefined function ot_get_option() in /home/happytoy/public_html/wp-content/themes/calypso/includes/thumb.php on line 2

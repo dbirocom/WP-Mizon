@@ -1,0 +1,34 @@
+nav, #menu-icon {background: url(../img/header_purple.jpg) repeat;}
+.amazon-seacrh input[type="submit"]:hover,  {background: #6C2DC7; color: #fff}
+
+.amazon-seacrh input[type="submit"]:hover,  {background: #6C2DC7; color: #fff}
+.popular-item li a.detail:hover, .popular-item a.detail:hover, .product-list a.detail:hover, #slider .slide-desc a.cart:hover, .navigation a:hover {border: 1px solid #6C2DC7; color: #fff !important; background: #6C2DC7 }
+.product-meta-excerpt h3 span, .product-share h3 span, .product-description h3 span, h2.archive span, h2.page span {border-bottom: 2px solid #6C2DC7;}
+.product-meta-action .cart:active, .product-meta-action .cart:hover {
+background-image: linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -o-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -moz-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -webkit-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -ms-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #6C2DC7), color-stop(1, #6C2DC7) );
+-webkit-box-shadow: inset 0px 4px 1px #461B7E, 0px 2px 0px 0px #7F38EC, 0px 5px 3px #999;
+-moz-box-shadow: 0px 2px 0px 1px #7F38EC, 0px 5px 3px #999;
+-o-box-shadow: 0px 2px 0px 1px #7F38EC, 0px 5px 3px #999;
+box-shadow: inset 0px 4px 1px #461B7E, 0px 2px 0px 0px #7F38EC, 0px 5px 3px #999;
+}
+.product-meta-action .cart {
+background-image: linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -o-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -moz-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -webkit-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -ms-linear-gradient(bottom, #6C2DC7 0%, #6C2DC7 100%);
+background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #6C2DC7), color-stop(1, #6C2DC7) );
+-webkit-box-shadow: inset 0px 1px 0px #7F38EC, 0px 5px 0px 0px #7F38EC, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #7F38EC, 0px 5px 0px 0px #7F38EC, 0px 10px 5px #999;
+-o-box-shadow: inset 0px 1px 0px #7F38EC, 0px 5px 0px 0px #7F38EC, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #7F38EC, 0px 5px 0px 0px #7F38EC, 0px 10px 5px #999;
+}
+
+div.modal-box div.inside.green {
+	background: url(../img/header_purple.jpg) repeat;
+}

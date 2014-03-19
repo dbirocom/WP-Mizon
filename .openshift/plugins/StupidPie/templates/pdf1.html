@@ -1,0 +1,31 @@
+<br>
+
+<div style='font-size: 12px; text-align: justify;'>
+
+{% api %}
+{% for index, item in api %}{% if index < 1 %}
+ 
+<p>
+<img align="left" width="120" style="margin:0 8px 8px 0" src="http://api.pagepeeker.com/v2/thumbs.php?size=m&url={{ item.link | host }}"/>
+<strong>{{item.title  | remove '...' | trim | strtolower | ucfirst }} Description:</strong><br />
+{{item.description | remove '...' | trim | strtolower | ucfirst }}.<br />
+<br />
+<span style="color: #fff;"><strong>PDF File Name:</strong> {{item.title  | remove '...' | trim | strtolower | ucfirst }}
+</p>
+
+<br />
+<p />
+<br /><center><iframe src="http://docs.google.com/gview?url={{ item.link }}&embedded=true" style="width:730px; height:550px;" frameborder="0"></iframe></center>
+
+<p />
+<br />
+<strong>Source File:</strong> {{ item.link | host }} </span>   
+<b>DOWNLOAD</b> this ebook at <a target="_blank" rel="nofollow" href="{{ item.link }}">
+<font style="color: #F88818;">HERE</font></a>
+<br />
+
+ 
+{% endif %}
+{% endfor %}
+
+</div>
